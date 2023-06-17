@@ -1,0 +1,1130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+/* navbarStart */
+.navbar {
+    height: 80px;
+    box-shadow: 0px 0px 1px #bdbdbd;
+}
+.navbar .logo .img1{
+    width: 102px;
+}
+.navbar .logo .img2{
+    display: none;
+    width: 28px;
+}
+
+.navbar .search{
+    border: 1px solid #dcdcdc;
+    border-radius: 50px;
+    padding: 5px 4px !important;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 140px;
+    box-shadow: 1px 1px 2px #f1f1f1;
+}
+.navbar .search:hover {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08),0 4px 12px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s;
+}
+.navbar .search p{
+    display: inline;
+    margin: 0 108px 0 20px !important;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+.navbar .search i{
+    color: #fff;
+    background: #FF385C;
+    padding: 11px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+.navbar .profile .airbnb_btn {
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: 40px;
+    font-weight: 500;
+}
+.navbar .profile .airbnb_btn:hover {
+    background: #F7F7F7;
+}
+.navbar .profile .globe_btn {
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 10px 16px;
+    border-radius: 40px;
+}
+.navbar .profile .globe_btn:hover {
+    background: #F7F7F7;
+}
+.navbar .profile .hamburger {
+    border: 1px solid #dcdcdc;
+    border-radius: 50px;
+    padding: 10px 12px !important;
+    cursor: pointer;
+}
+.navbar .profile .hamburger i{
+    font-size: 16px;
+    padding: 0 4px;
+}
+.navbar .profile .hamburger:hover {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08),0 4px 12px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s;
+}
+.navbar .home{
+    display: none;
+}
+.navbar .arrow{
+    display: none;
+}
+/* navbarEnd */
+
+
+
+
+
+
+
+
+
+
+
+/* heroAreaStart */
+.heroArea{
+    padding: 20px 0;
+}
+.heroTopImg a img{
+    height: 50vh;
+    cursor: pointer;
+    display: none;
+}
+.heroTopImg .heroTopNum{
+    display: none;
+}
+.heroTopImg .heroTopNum p{
+    color: #fff;
+    background: #000000a6;
+    font-size: 14px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    display: inline;
+    margin: 0 18px 0 0;
+}
+.heroArea h2{
+    font-size: 26px;
+    font-weight: 500;
+}
+.heroArea .hr{
+    display: none;
+}
+.heroArea .review{
+    display: flex;
+}
+.heroArea .review p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.heroArea .review .droped{
+    margin: 0 10px;
+}
+.heroArea .review a{
+    text-decoration: underline !important;
+    font-size: 14px;
+}
+.heroArea .hIcon{
+    margin-top: 36px;
+}
+.heroArea .hIcon i{
+    margin-right: 5px;
+}
+.heroArea .hIcon a{
+    text-decoration: underline !important;
+    font-size: 14px;
+}
+.heroArea .hIcon a:first-child{
+    margin-right: 16px;
+}
+.heroImg img{
+    width: 100%;
+    padding: 4px;
+    cursor: pointer;
+}
+.heroImg img:hover{
+    filter: brightness(0.9);
+}
+.heroImg .img1 img{
+    height: 336px;
+    border-radius: 18px 0 0 18px;
+}
+.heroImg .img2 .sm_img{
+    height: 168px;
+}
+.heroImg .img3 .sm_img{
+    height: 168px;
+}
+.heroImg .img4 .sm_img{
+    height: 168px;
+    border-radius: 0 18px 0 0;
+}
+.heroImg .img5 .sm_img{
+    height: 168px;
+    border-radius: 0 0 18px 0;
+    position: absolute;
+    width: 285px;
+}
+.heroImg button {
+    padding: 4px 12px;
+    background: #fff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 14px;
+    position: relative;
+    margin: 100px 0 0 100px;
+    font-weight: 500;
+}
+.heroImg button .dot{
+    width: 24px;
+}
+/* heroAreaEnd */
+
+
+
+
+
+
+
+
+
+
+/* rentSectionStart */
+.rent {
+    margin-top: 20px;
+}
+.rent .rentSide {
+    width: 92%;
+}
+.rent .heading {
+    justify-content: space-between;
+}
+.rent .heading h3{
+    font-size: 22px;
+}
+.rent .heading img{
+    width: 40px;
+    border-radius: 50%;
+}
+.rent .serviceBox {
+    margin-top: 30px;
+}
+.rent .serviceBox p>i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.rent .serviceBox .boxItem{
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    padding: 0 20px;
+    width: 13rem;
+    padding: 0 0 10px 30px;
+    margin-right: 15px;
+}
+.rent .serviceBox i{
+    font-size: 20px;
+    margin-right: 12px;
+    margin-top: 32px;
+}
+.rent .serviceBox p{
+    font-size: 14px;
+    margin: 32px 15px 0 0;
+}
+.rent .serviceBox .boxP{
+    margin: 15px 15px 0 0;
+}
+/* roomRentStart */
+.rent .detail {
+    margin-bottom: 26px;
+}
+.rent .detail1 {
+    margin-top: 30px;
+}
+.rent .roomRent {
+    width: 92%;
+}
+.rent .roomRent i{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.rent .roomRent .text{
+    margin-left: 16px;
+}
+.rent .roomRent .text h6{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.rent .roomRent .text p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #454545;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.rent .translate {
+    margin-top: 28px;
+}
+.rent .translate img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.rent .translate p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.rent .translate p>a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline !important;
+}
+/* roomRentEnd */
+
+/* meetBox */
+.meetHost .meetBox{
+    width: 92%;
+    min-height: 55rem;
+    background: #F0EFE9;
+    border-radius: 12px;
+    margin-top: 20px;
+    padding-top: 36px;
+}
+.meetHost .meetBox .sagrario{
+    width: 378px;
+    height: 240px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 24px;
+    justify-content: space-around;
+    box-shadow: 4px 4px 5px #dcdcdc;
+}
+.meetHost .sagrario .imgPart {
+    text-align: center;
+}
+.meetHost .sagrario .imgPart img{
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 40px;
+}
+.meetHost .sagrario .imgPart i{
+    position: relative;
+    margin: 108px 0px 0 72px;
+    color: #FF385C;
+    font-size: 28px;
+}
+.meetHost .sagrario .imgPart h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.meetHost .sagrario .imgPart p{
+    font-size: 14px;
+}
+.meetHost .sagrario .review h2>i{
+    font-size: 16px;
+}
+.meetHost .sagrario .review h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.meetHost .sagrario .review p{
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+.meetHost .workDetail{
+    display: flex;
+    padding: 15px 110px 0 150px;
+}
+.meetHost .workDetail .workIcon{
+    display: flex;
+    flex-direction: column;
+}
+.meetHost .workDetail .workIcon i{
+    font-size: 22px;
+    margin: 24px 10px 0 0;
+}
+.meetHost .workDetail .workText p{
+    margin: 20px 0 22px 0;
+}
+.meetHost .wordP{
+    padding: 5px 110px 0 150px;
+}
+.meetHost .wordA{
+    display: block;
+    padding: 0 110px 0 150px;
+    font-weight: 500;
+    text-decoration: underline !important;
+}
+.meetHost button{
+    margin: 30px 0 32px 150px;
+    padding: 10px 22px;
+    border: navajowhite;
+    border-radius: 8px;
+    color: #fff;
+    background: #202020;
+}
+.meetHost button:hover{
+    background: #000;
+}
+.meetHost .wordHr{
+    width: 55%;
+    margin: auto;
+}
+.meetHost .wordMini{
+    font-size: 11px;
+    margin: 30px 170px 32px 150px;
+    color: #454545;
+}
+/* meetBox */
+/* AboutPlace */
+.rent .aboutPlace{
+    margin: 35px 0;
+}
+.rent .aboutPlace h3{
+    font-size: 22px;
+    margin: 16px 0;
+}
+.rent .aboutPlace p{
+    width: 92%;
+    margin-bottom: 20px;
+}
+.rent .aboutPlace a{
+    font-weight: 500;
+    text-decoration: underline !important;
+    margin: 100px 0 0 0;
+}
+.rent .aboutHr {
+    width: 92%;
+    margin-top: 42px;
+}
+/* AboutPlace */
+/* sleep */
+.rent .sleep h3{
+    font-size: 22px;
+}
+.rent .sleep .bedroom {
+    width: 215px;
+    padding: 28px 0 16px 26px;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.rent .sleep .bedroom i{
+    font-size: 20px;
+}
+.rent .sleep .bedroom h6{
+    padding: 0;
+    margin: 10px 0;
+}
+.rent .sleep .bedroom p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.rent .sleepHr{
+    width: 92%;
+}
+/* sleep */
+/* placeOffers */
+.placeOffers h3 {
+    font-size: 22px;
+}
+.rent .placeOffers .offerList {
+    margin: 10px 0 30px 0;
+}
+.rent .placeOffers i{
+    display: block;
+    font-size: 20px;
+    margin: 22px 10px 0 0;
+}
+.rent .placeOffers p{
+    font-size: 15px;
+    margin: 20px 0 16px 0;
+}
+.rent .placeOffers .right{
+    margin-left: 100px;
+}
+.rent .placeOffers button{
+    margin-bottom: 30px;
+    background: transparent;
+    border: 1px solid #000;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.rent .placeOffers .placeOffersHr{
+    width: 92%;
+}
+/* placeOffers */
+/* date */
+.date h3 {
+    font-size: 22px;
+}
+.date p {
+    font-size: 14px;
+    color: #878787;
+}
+.date .calendar {
+    padding: 0;
+}
+.date .icons  i{
+    font-size: 16px;
+}
+.date .clearText {
+    text-align: end;
+    width: 92%;
+}
+.date .clearText a{
+    text-decoration: underline !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+.wrapper{
+    width: 336px;
+    background: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 15px 40px rgba(0,0,0,0.12); */
+  }
+  .wrapper header{
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+  }
+  header .icons{
+    display: flex;
+  }
+  header .icons span{
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: #878787;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.9rem;
+    user-select: none;
+    border-radius: 50%;
+  }
+  .icons span:last-child{
+    margin-right: -10px;
+  }
+  header .icons span:hover{
+    background: #f2f2f2;
+  }
+  header .current-date{
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .calendar{
+    padding: 20px;
+  }
+  .calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .calendar .days{
+    margin-bottom: 20px;
+  }
+  .calendar li{
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 12px;
+  }
+  .calendar .weeks li{
+    font-weight: 500;
+    cursor: default;
+  }
+  .calendar .days li{
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 22px;
+    font-size: 12px;
+  }
+  .days li.inactive{
+    color: #aaa;
+  }
+  .days li.active{
+    color: #fff;
+  }
+  .days li::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .days li.active::before{
+    /* background: #9B59B6; */
+    background: #E31B5F;
+  }
+  .days li:not(.active):hover::before{
+    background: #f2f2f2;
+  }
+
+/* date */
+
+
+
+
+
+
+/* checkCard */
+.check{
+    position: sticky;
+    top: 130px;
+}
+.rent .checkCard{
+    justify-content: space-around;
+    border: 1px solid #dcdcdc;
+    padding: 34px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px #dcdcdc;
+    margin-top: 20px;
+}
+.rent .price {
+    justify-content: space-between;
+}
+.rent .price h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+.rent .price h3>span{
+    font-size: 16px;
+    font-weight: 400;
+}
+.rent .price p{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.rent .price p>span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #454545;
+}
+.rent .checkCard .checkIn {
+    border: 1px solid #b5b5b5;
+    padding: 8px 61px 8px 15px;
+    border-radius: 8px 0 0 0;
+    border-right: none;
+}
+.rent .checkCard .checkOut{
+    border: 1px solid #b5b5b5;
+    padding: 8px 62px 8px 15px;
+    border-radius: 0 8px 0 0;
+}
+.rent .checkCard .checkIn p{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.rent .checkCard .checkOut p{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.rent .checkCard .guest {
+    border: 1px solid #b5b5b5;
+    padding: 0px 0 10px 18px;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+    border-top: none;
+}
+.rent .checkCard .guest p{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.rent .checkCard .guest i{
+    padding: 18px 14px 0 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+.rent .checkCard .checkIn h5{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #454545;
+}
+.rent .checkCard .checkOut h5{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #454545;
+}
+.rent .checkCard .guest h5{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #454545;
+}
+.rent .checkCard button{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+    border: 0;
+    margin-top: 15px;
+    border-radius: 8px;
+    background: #E31B5F;
+    color: #fff;
+}
+.rent .report{
+    text-align: center;
+    margin-top: 20px;
+}
+.rent .report i{
+    margin-right: 10px;
+    color: #b5b5b5;
+}
+.rent .report a{
+    font-size: 14px;
+    text-decoration: underline !important;
+    color: #454545 !important;
+}
+.conHr{
+    margin: 50px 0;
+}
+/* checkCard */
+/* rentSectionEnd */
+/* testimonialsStart */
+.testimonials h3{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.testimonials .range {
+    justify-content: space-between;
+}
+.testimonials .range p{
+    font-size: 15px;
+}
+.testimonials .rating p{
+    font-size: 12px;
+    margin-top: 2px;
+}
+.testimonials .range .bar{
+    font-size: 14px;
+    margin-right: 80px;
+}
+.testimonials .progress {
+    width: 100px;
+    height: 4px;
+    border-radius: 12px;
+    background-color: #e3e3e3;
+    margin: 9px 8px 0 0;
+}
+.testimonials .progress .progress_bar1 {
+    width: 95px;
+    opacity: 1;
+    background-color: #000;
+    border-radius: 0;
+    transition: all 0.5s;
+}
+.testimonials .progress .progress_bar2 {
+    width: 100px;
+    opacity: 1;
+    background-color: #000;
+    border-radius: 0;
+    transition: all 0.5s;
+}
+.testimonials .progress .progress_bar3 {
+    width: 100px;
+    opacity: 1;
+    background-color: #000;
+    border-radius: 0;
+    transition: all 0.5s;
+}
+/* .testReview{
+    margin-top: 30px;
+} */
+.testReview .clientReview {
+    margin-top: 30px;
+    height: 200px;
+    width: 90%;
+}
+.testReview .clientReview img{
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+.testReview .clientReview .text{
+    margin-left: 10px;
+}
+.testReview .clientReview h6{
+    margin: 0;
+}
+.testReview .clientReview p{
+    font-size: 14px;
+    color: #878787;
+}
+.testReview .clientReview span{
+    font-size: 15px;
+}
+.testReview button{
+    margin-bottom: 30px;
+    background: transparent;
+    border: 1px solid #000;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+/* testimonialsEnd */
+/* mapStart */
+.map h3{
+    font-size: 22px;
+    padding: 20px 0;
+}
+.map span{
+    font-size: 15px;
+}
+.map a{
+    margin-top: 10px;
+    display: block;
+    text-decoration: underline !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+/* mapEnd */
+/* thingsToKnowStart */
+.thingsToKnow h3{
+    font-size: 22px;
+    margin: 35px 0 22px 0;
+}
+.thingsToKnow h6{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.thingsToKnow p {
+    font-size: 15px;
+    color: #454545;
+}
+.thingsToKnow a{
+    margin-top: 10px;
+    display: block;
+    text-decoration: underline !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+/* thingsToKnowEnd */
+/* exploreStart */
+.explore h3{
+    font-size: 22px;
+    margin: 30px 0;
+}
+.explore p{
+    font-size: 15px;
+    color: #454545;
+}
+/* exploreEnd */
+/* otherType */
+.otherType h3{
+    margin: 30px 0 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #202020;
+}
+.otherType p{
+    color: #454545;
+}
+.otherType span{
+    font-size: 14px;
+    padding: 30px 0;
+    color: #454545;
+}
+/* otherType */
+/* footerStart */
+.footer{
+    margin: 40px;
+}
+.footer h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer a {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 14px;
+    color: #454545 !important;
+}
+.footer a:hover {
+    text-decoration: underline !important;
+}
+.lastFooter {
+    margin: 0 0 -16px 0;
+}
+.lastFooter .right a{
+    display: inline;
+    margin-right: 5px;
+}
+.lastFooter .right a{
+    display: inline;
+    margin-right: 5px;
+}
+.lastFooter .left .usd i{
+    font-size: 18px;
+    margin: 2px 6px;
+}
+.lastFooter .left .usd a{
+    font-size: 15px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.lastFooter .left .icon a{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.lastFooter .left .icon i{
+    font-size: 20px;
+    color: #000;
+    padding: 0 6px;
+}
+/* footerEnd */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY START */
+@media (max-width: 1199px){
+    .heroImg .img5 .sm_img {
+        width: 240px;
+    }
+    .heroImg button {
+        margin: 115px 0 0 55px;
+    }
+    /* rent */
+    .rent .checkCard .checkOut {
+        padding: 8px 38px 8px 15px;
+    }
+}
+@media (max-width: 991px){
+    /* navbar */
+    .navbar .logo .img1{
+        display: none;
+    }
+    .navbar .logo .img2{
+        display: inline;
+    }
+    .navbar .search {
+        margin-left: 0;
+    }
+    .heroImg .img5 .sm_img {
+    width: 180px;
+    }
+    .heroImg button {
+    margin: 100px 0 0 10px;
+    }
+
+    /* rent */
+    .rent .serviceBox .boxItem {
+        padding: 0 0 10px 6px;
+    }
+    .rent .checkCard .checkIn {
+        padding: 8px 28px 8px 15px;
+    }
+    .rent .checkCard .checkOut {
+        padding: 8px 0px 8px 6px;
+    }
+    .rent .checkCard button {
+        font-size: 12px;
+    }
+    .meetHost .workDetail {
+        padding: 15px 36px 0 40px;
+    }
+    .meetHost .workDetail .workIcon i {
+        margin: 28px 10px 0 0;
+    }
+    .meetHost .wordP {
+        padding: 5px 50px 0 40px;
+    }
+    .meetHost .wordA {
+        padding: 0 110px 0 40px;
+    }
+    .meetHost button {
+        margin: 30px 0 32px 40px;
+    }
+    .meetHost .wordMini {
+        margin: 30px 70px 32px 40px;
+    }
+    .meetHost .wordHr {
+        width: 80%;
+    }
+    .meetHost .wordMini {
+        margin: 20px 70px 32px 40px;
+    }
+    .rent .placeOffers i {
+        margin: 32px 10px 0 0;
+      }
+    .testReview .clientReview {
+    height: 250px;
+    }
+}
+@media (max-width: 768px){
+    /* navbar */
+    .navbar .logo .img2 {
+        display: none;
+    }
+    .navbar .search {
+        display: none;
+    }
+    .navbar .airbnb_btn, .globe_btn, .hamburger{
+        display: none;
+    }
+    .navbar .home{
+        display: inline;
+    }
+    .navbar .arrow{
+        display: inline;
+    }
+    .navbar .home a>i{
+        padding-right: 8px;
+    }
+    .navbar .arrow a>i{
+        padding-right: 8px;
+    }
+    .heroArea .hr{
+        display: block;
+    }
+    .heroArea .hIcon {
+    margin-top: 36px;
+    display: none;
+    }
+    .heroImg{
+        display: none;
+    }
+    .heroTopImg a img{
+        display: inline;
+        position: absolute;
+        width: 100%;
+    }
+    .heroTopImg .heroTopNum{
+        position: absolute;
+        display: inline;
+        /* bottom: 0; */
+        right: 0;
+        top: 27rem;
+    }
+    .heroArea{
+        position: relative;
+        margin-top: 50vh;
+    }
+    /* rent */
+    .meetHost .meetBox {
+        width: 100%;
+      }
+    .check {
+        display: none;
+    }
+    .date {
+        display: none;
+    }
+    .rent .placeOffers .placeOffersHr {
+        display: none;
+    }
+    .testReview .clientReview {
+        height: auto;
+      }
+      .testReview button {
+        margin-top: 20px;
+      }
+    .map{
+        display: none;
+    }
+}
+@media (max-width: 575px){
+    .rent .serviceBox p {
+        font-size: 12px;
+        margin: 32px 15px 0 0;
+    }
+    .meetHost .meetBox .sagrario {
+        width: 320px;
+    }
+    .meetHost .workDetail .workIcon i {
+        margin: 27px 10px 0 0;
+    }
+    .meetHost .workDetail .workText p {
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+    .meetHost .wordP {
+        padding: 14px 50px 0 40px;
+        font-size: 14px;
+    }
+    .meetHost .wordMini {
+        margin: 20px 30px 32px 40px;
+    }
+    .rent .placeOffers .right {
+        display: none !important;
+    }
+    .rent .placeOffers i {
+        margin: 22px 10px 0 0;
+    }
+    .rent .placeOffers button {
+        width: 100%;
+        margin-bottom: 0;
+      }
+}
+/* MEDIA QUERY END */

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/img/airbnb-logo-sm.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FonrAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>airbnb</title>
+</head>
+<body>
+    <!-- navbarStart -->
+    <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a class="logoImg" href="#">
+                <img class="img1" src="./assets/img/airbnb-logo.png" alt="logo">
+                <img class="img2" src="./assets/img/airbnb-logo-sm.png" alt="logo">
+                <div class="home">
+                    <a href="#"><i class="fa-solid fa-angle-left"></i>Homes</a>
+                </div>
+            </a>
+          </div>
+          <a href="#" class="search">
+            <p>Start your search</p>
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </a>
+          <div class="profile d-flex">
+            <a class="airbnb_btn" href="#">Airbnb your home</a>
+            <a class="globe_btn" href="#"><i class="fas fa-globe"></i></a>
+            <div class="hamburger">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="arrow">
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- navbarEnd -->
+    <!-- heroAreaStart -->
+    <div class="heroTopImg">
+      <a href="#">
+        <img src="./assets/img/photo_1.jpg" alt="#">
+        <div class="heroTopNum">
+          <p>1/40</p>
+        </div>
+      </a>
+    </div>
+    <div class="heroArea">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-sm-12">
+            <h2>Enjoy historic Valencia and close to the beach.</h2>
+            <div class="review">
+              <p><i class="fa-sharp fa-solid fa-star"></i> 4.87 . <a href="#">171 reviews</a></p>
+              <p class="droped"><i class="fa-solid fa-droplet"></i> Superhost .</p>
+              <a href="#">Valencia, Spain</a>
+            </div>
+            <hr class="hr">
+          </div>
+          <div class="col-md-2">
+            <div class="hIcon">
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i>Share</a>
+              <a href="#"><i class="fa-regular fa-heart"></i>Save</a>
+            </div>
+          </div>
+        </div>
+        <div class="heroImg">
+          <div class="row">
+            <div class="col-md-6 p-0">
+              <div class="img1">
+                <img src="./assets/img/photo_1.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-3 p-0 snd_img">
+              <div class="img2">
+                <img class="sm_img" src="./assets/img/photo_2.jpg" alt="">
+              </div>
+              <div class="img3">
+                <img class="sm_img" src="./assets/img/photo_3.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-3 p-0 snd_img">
+              <div class="img4">
+                <img class="sm_img" src="./assets/img/photo_4.jpg" alt="">
+              </div>
+              <div class="img5">
+                <img class="sm_img" src="./assets/img/photo_5.jpg" alt="">
+                <button>
+                  <img class="dot" src="./assets/img/dots-menu.png" alt="dot-menu">
+                  Show all photos
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- heroAreaEnd  -->
+    <!-- rentSectionStart -->
+    <div class="rent">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="rentSide">
+              <div class="heading d-flex">
+                <h3>Room in a rental unit hosted by Sagrario</h3>
+                <img src="./assets/img/woman.jpg" alt="woman">
+              </div>
+              <div class="serviceBox d-flex">
+                <div class="boxItem d-flex">
+                  <i class="fa-solid fa-bed"></i>
+                  <p>1 duble bed</p>
+                </div>
+                <div class="boxItem d-flex">
+                  <i class="fa-solid fa-shower"></i> 
+                  <p>Shared bathroom</p>
+                </div>
+                <div class="boxItem d-flex">
+                  <i class="fa-solid fa-house-user"></i>
+                  <p class="boxP">Host and other guests may be here</p>
+                </div>
+              </div>
+              <hr>
+            </div>
+            <!-- roomRentStart -->
+            <div class="roomRent">
+              <div class="detail detail1 d-flex">
+                <i class="fa-solid fa-diagram-next"></i>
+                <div class="text">
+                  <h6>Room in a rental unit</h6>
+                  <p>Your own room in a home, plus access to shared spaces.</p>
+                </div>
+              </div>
+              <div class="detail d-flex">
+                <i class="fa-solid fa-door-open"></i>
+                <div class="text">
+                  <h6>Dedicated workspace</h6>
+                  <p>A room with wifi that’s well-suited for working.</p>
+                </div>
+              </div>
+              <div class="detail d-flex">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="text">
+                  <h6>Sagrario is a Superhost</h6>
+                  <p>Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="translate d-flex">
+                <img src="./assets/img/translate.png" alt="translate">
+                <p>Some info has been automatically translated. <a href="#">Show original language</a></p>
+              </div>
+              <hr>
+            </div>
+            <!-- roomRentEnd -->
+            <!-- meetBoxStart -->
+            <div class="meetHost">
+              <h4>Meet your host</h4>
+              <div class="meetBox">
+                <div class="sagrario d-flex">
+                  <div class="imgPart">
+                    <img src="./assets/img/woman.jpg" alt="woman">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h1>Sagrario</h1>
+                    <p>Superhost</p>
+                  </div>
+                  <div class="reviews mt-3">
+                    <div class="review">
+                      <h2>316</h2>
+                      <p>Reviews</p>
+                    </div>
+                    <hr>
+                    <div class="review">
+                      <h2>4.86 <i class="fa-sharp fa-solid fa-star"></i></h2>
+                      <p>Rating</p>
+                    </div>
+                    <hr>
+                    <div class="review">
+                      <h2>7</h2>
+                      <p>Years hosting</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="workDetail">
+                  <div class="workIcon">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <i class="fa-regular fa-lightbulb"></i>
+                    <i class="fa-solid fa-music"></i>
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    <i class="fa-solid fa-asterisk"></i>
+                  </div>
+                  <div class="workText">
+                    <p>My work: coach</p>
+                    <p>Fun fact: No one believes my age</p>
+                    <p>Favorite song in high school: Resistiré</p>
+                    <p>For guests, I always: Help them enjoy Valencia</p>
+                    <p>What makes my home unique: Good energy and feeling at home</p>
+                  </div>
+                </div>
+                <p class="wordP">Open and communicative, with donation of people and happy to welcome friends from the world at home.</p>
+                <a href="#" class="wordA">Show more <i class="fa-solid fa-angle-right"></i></a>
+                <button type="submit">Message Host</button>
+                <hr class="wordHr">
+                <p class="wordMini">To protect your payment, never transfer money or communicate outside of the Airbnb website or app.</p>
+              </div>
+            </div>
+            <!-- meetBoxEnd -->
+            <!-- AboutPlaceStart -->
+            <div class="aboutPlace">
+              <h3>About this place</h3>
+              <p>Nice and spacious room in the heart of Valencia, with double bed and a balcony. Silent because there is no traffic. Surrounded by all the landmarks , museums , cathedral , leisure, and close to the beach where you can go by bike, bus , tram or car if your means of transportation.
+                I would love to receive people wanting to enjoy my city and help in what I can ....</p>
+                <a href="#" class="wordA">Show more <i class="fa-solid fa-angle-right"></i></a>
+                <hr class="aboutHr">
+            </div>
+            <!-- AboutPlaceEnd -->
+            <!-- Sleep -->
+            <div class="sleep">
+              <h3>Where you'll sleep</h3>
+              <div class="bedroom">
+                <i class="fa-solid fa-bed"></i>
+                <h6>Bedroom</h6>
+                <p>1 double bed</p>
+              </div>
+              <hr class="sleepHr">
+            </div>
+            <!-- Sleep -->
+            <!-- placeOffers -->
+            <div class="placeOffers">
+              <h3>What this place offers</h3>
+              <div class="offerList d-flex">
+                <div class="left d-flex">
+                  <div class="lIcon">
+                    <i class="fa-solid fa-door-closed"></i>
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-hands-bubbles"></i>
+                    <i class="fa-solid fa-prescription-bottle"></i>
+                    <i class="fa-solid fa-box-archive"></i>
+                  </div>
+                  <div class="lText">
+                    <p>Lock on bedroom door </p>
+                    <p>Wifi</p>
+                    <p>Washer</p>
+                    <p>Private patio or balcony</p>
+                    <p>Pack'n play/Travel crib</p>
+                  </div>
+                </div>
+                <div class="right d-flex">
+                  <div class="lIcon">
+                    <i class="fa-solid fa-kitchen-set"></i>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <i class="fa-solid fa-bath"></i>
+                    <i class="fa-solid fa-suitcase-rolling"></i>
+                    <i class="fa-solid fa-video"></i>
+                  </div>
+                  <div class="lText">
+                    <p>Kitchen</p>
+                    <p>Dedicated workspace</p>
+                    <p>Bathtub</p>
+                    <p>Luggage dropoff allowed</p>
+                    <p>Security cameras on property</p>
+                  </div>
+                </div>
+              </div>
+              <button type="submit">Show all 37 amenities</button>
+              <hr class="placeOffersHr">
+            </div>
+            <!-- placeOffers -->
+            <!-- date -->
+            <div class="date">
+              <h3>Select check-in date</h3>
+              <p>Add your travel dates for exact pricing</p>
+              <div class="calendar d-flex">
+                <div class="calender1">
+                  <div class="wrapper">
+                    <header>
+                      <p class="current-date"></p>
+                      <div class="icons">
+                        <span id="prev" class="material-symbols-rounded"><i class="fa-solid fa-chevron-left"></i></span>
+                        <span id="next" class="material-symbols-rounded"><i class="fa-solid fa-angle-right"></i></span>
+                      </div>
+                    </header>
+                    <div class="calendar">
+                      <ul class="weeks">
+                        <li>Sun</li>
+                        <li>Mon</li>
+                        <li>Tue</li>
+                        <li>Wed</li>
+                        <li>Thu</li>
+                        <li>Fri</li>
+                        <li>Sat</li>
+                      </ul>
+                      <ul class="days"></ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="calender2">
+                  
+                </div>
+              </div>
+              <div class="clearText">
+                <a href="#">Clear dates</a>
+              </div>
+            </div>
+            <!-- date -->
+          </div>
+
+
+
+          <div class="col-md-4">
+            <div class="check">
+              <div class="checkCard">
+              <div class="price d-flex">
+                <h3>$37 <span>night</span></h3>
+                <p><i class="fa-sharp fa-solid fa-star"></i> 4.87 . <span>171 reviews</span></p>
+              </div>
+              <div class="d-flex">
+                <div class="checkIn">
+                  <p>check-in</p>
+                  <h5>Add date</h5>
+                </div>
+                <div class="checkOut">
+                  <p>checkout</p>
+                  <h5>Add date</h5>
+                </div>
+              </div>
+              <div class="guest d-flex">
+                <div class="person">
+                  <p>Guest</p>
+                  <h5>1 guest</h5>
+                </div>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <button type="submit">Check availability</button>
+            </div>
+            <div class="report">
+              <a href="#"><i class="fa-solid fa-flag"></i>Report this listing</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <hr class="conHr">
+      </div>
+    </div>
+    <!-- rentSectionEnd -->
+    <!-- testimonialsStart -->
+    <div class="testimonials">
+      <div class="container">
+        <h3><i class="fa-sharp fa-solid fa-star"></i> 4.87 . 171 reviews</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="range d-flex">
+              <div class="text">
+                <p>Cleanliness</p>
+              </div>
+              <div class="bar d-flex"">
+                <div class="progress">
+                  <div class="progress_bar1" data-progress="90"></div>
+                </div>
+                <div class="rating">
+                  <p>4.9</p>
+                </div>
+              </div>
+            </div>
+            <div class="range d-flex">
+              <div class="text">
+                <p>Communication</p>
+              </div>
+              <div class="bar d-flex"">
+                <div class="progress">
+                  <div class="progress_bar2" data-progress="90"></div>
+                </div>
+                <div class="rating">
+                  <p>5.0</p>
+                </div>
+              </div>
+            </div>
+            <div class="range d-flex">
+              <div class="text">
+                <p>Check-in</p>
+              </div>
+              <div class="bar d-flex"">
+                <div class="progress">
+                  <div class="progress_bar3" data-progress="90"></div>
+                </div>
+                <div class="rating">
+                  <p>5.0</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="range d-flex">
+              <div class="text">
+                <p>Cleanliness</p>
+              </div>
+              <div class="bar d-flex"">
+                <div class="progress">
+                  <div class="progress_bar1" data-progress="90"></div>
+                </div>
+                <div class="rating">
+                  <p>4.9</p>
+                </div>
+              </div>
+            </div>
+            <div class="range d-flex">
+              <div class="text">
+                <p>Communication</p>
+              </div>
+              <div class="bar d-flex"">
+                <div class="progress">
+                  <div class="progress_bar2" data-progress="90"></div>
+                </div>
+                <div class="rating">
+                  <p>5.0</p>
+                </div>
+              </div>
+            </div>
+            <div class="range d-flex">
+              <div class="text">
+                <p>Check-in</p>
+              </div>
+              <div class="bar d-flex"">
+                <div class="progress">
+                  <div class="progress_bar3" data-progress="90"></div>
+                </div>
+                <div class="rating">
+                  <p>5.0</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testReview">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="clientReview">
+                <div class="d-flex">
+                  <div class="img">
+                    <img src="./assets/img/client1.png" alt="client">
+                  </div>
+                  <div class="text">
+                    <h6>Natasha</h6>
+                    <p>May 2023</p>
+                  </div>
+                </div>
+                <span>Great location and a wonderful host, couldn't ask for more</span>
+              </div>
+              <div class="clientReview">
+                <div class="d-flex">
+                  <div class="img">
+                    <img src="./assets/img/client2.webp" alt="client">
+                  </div>
+                  <div class="text">
+                    <h6>Saskia</h6>
+                    <p>May 2023</p>
+                  </div>
+                </div>
+                <span>Sagrario is a superhost! She is very kind, helpful and friendly. She gives you advice about activities in Valencia.The apartment is great, clean and in the middle of the historic center. I loved staying here! I definitely want to go back!</span>
+              </div>
+              <div class="clientReview">
+                <div class="d-flex">
+                  <div class="img">
+                    <img src="./assets/img/client3.webp" alt="client">
+                  </div>
+                  <div class="text">
+                    <h6>Clara</h6>
+                    <p>March  2023</p>
+                  </div>
+                </div>
+                <span>She was really kind. Gracias Sagrario!</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="clientReview">
+                <div class="d-flex">
+                  <div class="img">
+                    <img src="./assets/img/client4.webp" alt="client">
+                  </div>
+                  <div class="text">
+                    <h6>Martin</h6>
+                    <p>May 2023</p>
+                  </div>
+                </div>
+                <span>I had a Great Time Staying at Sagrario’s place! Her apartment is perfectly located in the centre of el Carmen. Her information on festivities and the area were one of a kind. I can only recommend you to stay at her’s.
+                  Muchas gracias Sagrario!</span>
+              </div>
+              <div class="clientReview">
+                <div class="d-flex">
+                  <div class="img">
+                    <img src="./assets/img/client5.png" alt="client">
+                  </div>
+                  <div class="text">
+                    <h6>Merel</h6>
+                    <p>March  2023</p>
+                  </div>
+                </div>
+                <span>I loved staying with Sagrario. She is an incredible host. She’s friendly, always responds quickly and she made me feel at home. She gave me more than enough recommendations for bars, restaurants and museums. All the recommendations I tried out were a succes! I’ll definitely stay here again next time I’m in Valencia!</span>
+              </div>
+              <div class="clientReview">
+                <div class="d-flex">
+                  <div class="img">
+                    <img src="./assets/img/client6.png" alt="client">
+                  </div>
+                  <div class="text">
+                    <h6>Sean</h6>
+                    <p>February  2023</p>
+                  </div>
+                </div>
+                <span>Best bnb host! Very helpful whenever you need recommendations, very welcoming and makes you feel at home. Everything was perfect!</span>
+              </div>
+            </div>
+          </div>
+          <button type="submit">Show all 171 reviews</button>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <!-- testimonialsEnd -->
+    <!-- mapStart -->
+    <div class="map">
+      <div class="container">
+        <h3>Where you'll be</h3>
+        <div class="col-md-12">
+          <div class="mapLocation">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1333.4823547127764!2d2.1777167885813187!3d41.383504318262645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f9395aa707%3A0x35d4903128cf0fb7!2sJaume%20I!5e0!3m2!1sbn!2sbd!4v1687022900134!5m2!1sbn!2sbd" width="1140" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <h6 class="mt-3">Valencia, Spain</h6>
+          <span>In the center , next to the historic Cathedral, Garden tambén building on the river , and close to the beach. ideal for rest and go out and enjoy without having to move location.</span>
+          <a href="#">Show more <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <!-- mapEnd -->
+    <!-- thingsToKnowStart -->
+    <div class="thingsToKnow">
+      <div class="container">
+        <h3>Things to know</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <h6>House rules</h6>
+            <p>Check-in after 2:00 PM</p>
+            <p>Checkout before 11:00 AM</p>
+            <p>2 guests maximum</p>
+            <a href="#">Show more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div class="col-md-4">
+            <h6>Safety & property</h6>
+            <p>Security camera/recording device</p>
+            <p>Carbon monoxide alarm</p>
+            <p>Smoke alarm</p>
+            <a href="#">Show more <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+          <div class="col-md-4">
+            <h6>Cancellation policy</h6>
+            <p>Add your trip dates to get the cancellation details for this stay.</p>
+            <a href="#">At dates <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- thingsToKnowEnd -->
+    <!-- exploreStart -->
+    <div class="explore">
+      <div class="container">
+        <h3>Explore other options in and around Valencia</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <p>Dénia</p>
+            <p>Ibiza</p>
+            <p>Tarragona</p>
+          </div>
+          <div class="col-md-3">
+            <p>Calp</p>
+            <p>Torrevieja</p>
+            <p>Palma</p>
+          </div>
+          <div class="col-md-3">
+            <p>Benidorm</p>
+            <p>Formentera</p>
+            <p>Sitges</p>
+          </div>
+          <div class="col-md-3">
+            <p>Alicante</p>
+            <p>Salou</p>
+            <p>Majorca</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- exploreEnd -->
+    <!-- otherType -->
+    <div class="otherType">
+      <div class="container">
+        <h3>Explore other options in and around Valencia</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <p>Valencia vacation rentals</p>
+            <p>Luxury rentals in Spain</p>
+          </div>
+          <div class="col-md-3">
+            <p>Valencia monthly stays</p>
+          </div>
+          <div class="col-md-3">
+            <p>Apartment rentals in Valencia</p>
+          </div>
+          <div class="col-md-3">
+            <p>Apartment rentals in Spain</p>
+          </div>
+        </div>
+        <span>Airbnb >
+          Spain > 
+          Valencian Community >
+          Valencia Region >
+          Valencia >
+        </span>
+      </div>
+      <hr>
+    </div>
+    <!-- otherType -->
+    <!-- footerStart -->
+    <div class="footer">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-3">
+            <h6>House rules</h6>
+            <a href="#">Help Center</a>
+            <a href="#">AirCover</a>
+            <a href="#">Supporting people with disabilities</a>
+            <a href="#">Cancellation options</a>
+            <a href="#">Our COVID-19 Response</a>
+            <a href="#">Report a neighborhood concern</a>
+          </div>
+          <div class="col-md-3">
+            <h6>Community</h6>
+            <a href="#">Airbnb.org: disaster relief housing</a>
+            <a href="#">Combating discrimination</a>
+          </div>
+          <div class="col-md-3">
+            <h6>Hosting</h6>
+            <a href="#">Airbnb your home</a>
+            <a href="#">AirCover for Hosts</a>
+            <a href="#">Explore hosting resources</a>
+            <a href="#">Visit our community forum</a>
+            <a href="#">How to host responsibly</a>
+            <a href="#">Airbnb-friendly apartments</a>
+          </div>
+          <div class="col-md-3">
+            <h6>Hosting</h6>
+            <a href="#">Newsroom</a>
+            <a href="#">Learn about new features</a>
+            <a href="#">Letter from our founders</a>
+            <a href="#">Careers</a>
+            <a href="#">Investors</a>
+            <a href="#">Gift cards</a>
+          </div>
+        </div>
+        <hr>
+        <div class="lastFooter">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="right">
+                <a href="#">&copy; 2023 Airbnb, Inc.</a>
+                <a href="#">Terms . </a>
+                <a href="#">Sitemap . </a>
+                <a href="#">Privacy . </a>
+                <a href="#">Your Privacy Choices</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="left d-flex">
+                <div class="usd d-flex">
+                  <i class="fa-solid fa-globe"></i><a href="#">English (US)</a>
+                  <i class="fa-solid fa-dollar-sign"></i><a href="#">USD</a>
+                </div>
+                <div class="icon d-flex">
+                  <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footerEnd -->
+
+   
+    <script src="./js/script.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
